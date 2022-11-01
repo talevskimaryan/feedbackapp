@@ -1,0 +1,42 @@
+.container-one {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  border-radius: 15px;
+}
+
+button {
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  width: 200px;
+  height: 75px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: var(--buttons-color);
+  border: solid 2px var(--subtle-border);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  align-items: flex-start;
+  transition: 0.1s ease-in-out;
+  opacity: 0.75;
+}
+
+button:hover {
+  border: 2px solid rgb(20, 162, 228);
+  box-shadow: 0px 0px 15px 5px rgba(10, 112, 159, 0.714);
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 680px) {
+  .container-one {
+    width: 50%;
+  }
+}
